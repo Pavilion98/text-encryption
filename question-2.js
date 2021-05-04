@@ -7,7 +7,7 @@ function encryptText(text) {
         return (x = 1);
       }
     });
-    return JSON.stringify(word);
+    return word.join();
   }
   
   console.log(encryptText("How are you?")); // this must print 001
